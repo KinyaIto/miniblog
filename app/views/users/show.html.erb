@@ -1,0 +1,10 @@
+<div class="blogs">
+  <div class="blog"><p><%= simple_format(tweet.text) %></p></div>
+    <div class="buttons">
+      <% if user_signed_in? && current_user.id == @tweet.user_id %>
+        <%= link_to 'DESTRY', "/tweets/#{@tweet.id}", method: :delete %>  
+        <%= link_to 'SHOW', "/tweets/#{@tweet.id}", method: :get %>
+        <%= link_to 'EDIT',  "/tweets/#{@tweet.id}/edit", method: :get %>
+    <% end %>
+  </div>
+</div>

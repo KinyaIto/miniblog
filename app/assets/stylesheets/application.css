@@ -1,0 +1,64 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+/*
+ * "ほのか明朝" licensed under the IPA Font License Agreement v1.0
+ * http://fontfree.me/966（配布元のURL）
+ * http://ipafont.ipa.go.jp/（IPAフォントのURL）
+ * http://ipafont.ipa.go.jp/ipa_font_license_v1.html（IPAフォントライセンスv1.0のURL）
+ */
+
+.blogs {
+  justify-content: center;
+  width: 60%;
+  padding: 10px; 
+  margin: 15px auto; 
+  border: 1px solid #cccccc; 
+  box-shadow: 4px 4px 8px #dddddd;
+}
+
+.blog{
+    color: black;
+    text-align: left;
+    font-size: 1.0rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+  margin: 0 auto;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #00958D;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+
+
